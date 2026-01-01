@@ -1,0 +1,42 @@
+name: mobile_grid_app
+description: P2P Mobile Grid - Share position and create combined visual display
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Material Design
+  cupertino_icons: ^1.0.5
+  
+  # Geolocation
+  geolocator: ^11.0.0
+  geolocator_windows: ^0.2.5  # Windows desktop support (compatible with geolocator ^11.0.0)
+  permission_handler: ^11.0.0
+  permission_handler_windows: ^0.1.1  # Windows desktop support
+  
+  # WebRTC for P2P
+  flutter_webrtc: ^0.9.48
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Network & HTTP
+  http: ^1.2.0
+  
+  # Utilities
+  uuid: ^4.3.3
+  shared_preferences: ^2.2.2
+  shared_preferences_windows: ^2.1.1  # Windows desktop support
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

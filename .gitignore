@@ -1,0 +1,167 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Flutter build outputs
+**/flutter/ephemeral/
+**/flutter/generated_plugin_registrant.*
+**/flutter/generated_plugins.cmake
+**/flutter/Flutter.podspec
+**/flutter/Flutter.framework
+**/flutter/App.framework
+**/flutter/Generated.xcconfig
+**/flutter/flutter_export_environment.sh
+**/flutter/ephemeral/
+**/flutter/app.zip
+**/flutter/app.flx
+**/flutter/flutter_assets/
+
+# Web
+**/web/
+
+# Windows
+**/windows/runner/*.exe
+**/windows/runner/*.ilk
+**/windows/runner/*.pdb
+**/windows/runner/*.obj
+**/windows/runner/*.lib
+**/windows/runner/*.exp
+**/windows/runner/*.dll
+**/windows/runner/*.manifest
+
+# iOS
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/App.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Coverage
+lcov.info
+
+# VS Code settings
+.settings.json
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Package files
+*.deb
+*.rpm
+*.zip
+*.tar.gz
+*.tgz
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Compiled source
+*.com
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Flutter/Dart
+.packages
+.pub/
+build/
+ios/.generated/
+ios/Flutter/.last_build_id
+ios/Flutter/Flutter.podspec
+ios/Flutter/Flutter.framework
+ios/Flutter/App.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+android/.gradle
+android/.idea
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
