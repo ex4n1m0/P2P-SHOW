@@ -22,9 +22,8 @@ class P2PService extends ChangeNotifier {
     ]
   };
 
-  final Map<String, dynamic> _dataChannelConstraints = {
-    'ordered': true,
-  };
+  final RTCDataChannelInit _dataChannelConstraints = RTCDataChannelInit()
+    ..ordered = true;
 
   String get deviceId => _deviceId;
   bool get isRunning => _isRunning;
@@ -72,7 +71,7 @@ class P2PService extends ChangeNotifier {
       // Create data channel
       final dataChannel = await peerConnection.createDataChannel(
         'positionData',
-        RTCDataChannelInit()..ordered = true,
+        _dataChannelConstraints,
       );
       
       _setupDataChannel(peerId, dataChannel);

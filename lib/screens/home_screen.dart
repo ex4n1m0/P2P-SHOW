@@ -285,9 +285,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   'Devices in grid: ${gridProvider.deviceCount}',
                   style: const TextStyle(fontSize: 12),
                 ),
-                Text(
+                const Text(
                   'Range: 1km radius',
-                  style: const TextStyle(fontSize: 12),
+                  style: TextStyle(fontSize: 12),
                 ),
                 const SizedBox(height: 8),
                 if (gridProvider.gridBounds != null) ...[
